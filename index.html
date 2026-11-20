@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>REGEXEM INTERCONEXION INDUSTRIES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fondo Canvas Interactivo con la malla de cruces 3D -->
+  <canvas id="cyber-grid"></canvas>
+
+  <!-- Barra de Navegación -->
+  <header class="navbar">
+    <div class="logo">
+      <span class="cross-icon">+</span> REGEXEM<span class="neon-text">OS</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#arquitectura">Arquitectura</a>
+      <a href="#modulos">Módulos</a>
+      <a href="#rendimiento">Rendimiento</a>
+    </nav>
+    <button class="btn-white" id="pulse-trigger">INICIALIZAR SISTEMA</button>
+  </header>
+
+  <!-- Sección Principal (Hero) -->
+  <main class="container">
+    <section class="hero">
+      <div class="badge">
+        <span class="dot"></span> NÚCLEO ACTIVO v4.0
+      </div>
+      <h1>
+        INGENIERÍA <br>
+        <span class="white-block">DEL FUTURO</span> <br>
+        <span class="neon-outline">EN TIEMPO REAL</span>
+      </h1>
+      <p class="hero-desc">
+        Infraestructura modular de alta precisión diseñada para procesar datos masivos con latencia cero. Interfaz híbrida de alto contraste.
+      </p>
+      <div class="hero-actions">
+        <a href="#modulos" class="btn-neon">EXPLORAR MÓDULOS +</a>
+        <a href="#arquitectura" class="btn-outline-white">DOCUMENTACIÓN</a>
+      </div>
+    </section>
+
+    <!-- Sección de Tarjetas Tecnológicas (Contraste Blanco / Negro / Neón) -->
+    <section id="modulos" class="grid-section">
+      <div class="section-header">
+        <h2>ARQUITECTURA MODULAR</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="cards-grid">
+        <!-- Tarjeta 1: Estilo Oscuro con Borde Neón -->
+        <article class="card card-dark">
+          <div class="card-top">
+            <span class="card-id">01 // RED</span>
+            <span class="card-plus">+</span>
+          </div>
+          <h3>MATRIZ NEURAL</h3>
+          <p>Nodos interconectados con enrutamiento dinámico inteligente y encriptación cuántica nativa.</p>
+          <div class="card-footer">
+            <span class="status">ACTIVO</span>
+            <span class="metric">99.98%</span>
+          </div>
+        </article>
+
+        <!-- Tarjeta 2: Estilo Blanco Puro (Alto Contraste) -->
+        <article class="card card-white">
+          <div class="card-top">
+            <span class="card-id">02 // NÚCLEO</span>
+            <span class="card-plus">+</span>
+          </div>
+          <h3>PROCESAMIENTO PURO</h3>
+          <p>Arquitectura limpia optimizada para algoritmos de visión artificial y despliegue instantáneo.</p>
+          <div class="card-footer">
+            <span class="status">ÓPTIMO</span>
+            <span class="metric">0.02 ms</span>
+          </div>
+        </article>
+
+        <!-- Tarjeta 3: Estilo Oscuro con Borde Neón -->
+        <article class="card card-dark">
+          <div class="card-top">
+            <span class="card-id">03 // SEGURIDAD</span>
+            <span class="card-plus">+</span>
+          </div>
+          <h3>ESCUDO PERIMETRAL</h3>
+          <p>Detección autónoma de anomalías mediante patrones geométricos de verificación continua.</p>
+          <div class="card-footer">
+            <span class="status">PROTEGIDO</span>
+            <span class="metric">256-BIT</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Banner Blanco Tecnológico -->
+    <section id="rendimiento" class="white-banner">
+      <div class="banner-content">
+        <h2>SINCRONIZACIÓN TOTAL</h2>
+        <p>Mueve el cursor sobre el fondo para interactuar con la matriz energética o activa un pulso de diagnóstico global.</p>
+      </div>
+      <div class="banner-stats">
+        <div class="stat">
+          <span class="stat-num" id="counter">128</span>
+          <span class="stat-label">NODOS ACTIVOS</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">10<small>Gbps</small></span>
+          <span class="stat-label">ANCHO DE BANDA</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 NEXUS SYSTEMS // DISEÑO GEOMÉTRICO DE ALTA PRECISIÓN</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
